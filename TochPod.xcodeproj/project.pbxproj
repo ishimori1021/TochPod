@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10493E41C1AD5BF00204BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10493E31C1AD5BF00204BFC /* AppDelegate.swift */; };
+		A10493E61C1AD5BF00204BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10493E51C1AD5BF00204BFC /* ViewController.swift */; };
+		A10493E91C1AD5BF00204BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10493E71C1AD5BF00204BFC /* Main.storyboard */; };
+		A10493EB1C1AD5BF00204BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10493EA1C1AD5BF00204BFC /* Assets.xcassets */; };
+		A10493EE1C1AD5BF00204BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10493EC1C1AD5BF00204BFC /* LaunchScreen.storyboard */; };
+		A10493F91C1AD5BF00204BFC /* TochPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10493F81C1AD5BF00204BFC /* TochPodTests.swift */; };
+		A10494041C1AD5BF00204BFC /* TochPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10494031C1AD5BF00204BFC /* TochPodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10493F51C1AD5BF00204BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10493D81C1AD5BF00204BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10493DF1C1AD5BF00204BFC;
+			remoteInfo = TochPod;
+		};
+		A10494001C1AD5BF00204BFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10493D81C1AD5BF00204BFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10493DF1C1AD5BF00204BFC;
+			remoteInfo = TochPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10493E01C1AD5BF00204BFC /* TochPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TochPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10493E31C1AD5BF00204BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10493E51C1AD5BF00204BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A10493E81C1AD5BF00204BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A10493EA1C1AD5BF00204BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10493ED1C1AD5BF00204BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10493EF1C1AD5BF00204BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10493F41C1AD5BF00204BFC /* TochPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TochPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10493F81C1AD5BF00204BFC /* TochPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TochPodTests.swift; sourceTree = "<group>"; };
+		A10493FA1C1AD5BF00204BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10493FF1C1AD5BF00204BFC /* TochPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TochPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10494031C1AD5BF00204BFC /* TochPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TochPodUITests.swift; sourceTree = "<group>"; };
+		A10494051C1AD5BF00204BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10493DD1C1AD5BF00204BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10493F11C1AD5BF00204BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10493FC1C1AD5BF00204BFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10493D71C1AD5BF00204BFC = {
+			isa = PBXGroup;
+			children = (
+				A10493E21C1AD5BF00204BFC /* TochPod */,
+				A10493F71C1AD5BF00204BFC /* TochPodTests */,
+				A10494021C1AD5BF00204BFC /* TochPodUITests */,
+				A10493E11C1AD5BF00204BFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10493E11C1AD5BF00204BFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10493E01C1AD5BF00204BFC /* TochPod.app */,
+				A10493F41C1AD5BF00204BFC /* TochPodTests.xctest */,
+				A10493FF1C1AD5BF00204BFC /* TochPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10493E21C1AD5BF00204BFC /* TochPod */ = {
+			isa = PBXGroup;
+			children = (
+				A10493E31C1AD5BF00204BFC /* AppDelegate.swift */,
+				A10493E51C1AD5BF00204BFC /* ViewController.swift */,
+				A10493E71C1AD5BF00204BFC /* Main.storyboard */,
+				A10493EA1C1AD5BF00204BFC /* Assets.xcassets */,
+				A10493EC1C1AD5BF00204BFC /* LaunchScreen.storyboard */,
+				A10493EF1C1AD5BF00204BFC /* Info.plist */,
+			);
+			path = TochPod;
+			sourceTree = "<group>";
+		};
+		A10493F71C1AD5BF00204BFC /* TochPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10493F81C1AD5BF00204BFC /* TochPodTests.swift */,
+				A10493FA1C1AD5BF00204BFC /* Info.plist */,
+			);
+			path = TochPodTests;
+			sourceTree = "<group>";
+		};
+		A10494021C1AD5BF00204BFC /* TochPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A10494031C1AD5BF00204BFC /* TochPodUITests.swift */,
+				A10494051C1AD5BF00204BFC /* Info.plist */,
+			);
+			path = TochPodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10493DF1C1AD5BF00204BFC /* TochPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10494081C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPod" */;
+			buildPhases = (
+				A10493DC1C1AD5BF00204BFC /* Sources */,
+				A10493DD1C1AD5BF00204BFC /* Frameworks */,
+				A10493DE1C1AD5BF00204BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TochPod;
+			productName = TochPod;
+			productReference = A10493E01C1AD5BF00204BFC /* TochPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10493F31C1AD5BF00204BFC /* TochPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A104940B1C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPodTests" */;
+			buildPhases = (
+				A10493F01C1AD5BF00204BFC /* Sources */,
+				A10493F11C1AD5BF00204BFC /* Frameworks */,
+				A10493F21C1AD5BF00204BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10493F61C1AD5BF00204BFC /* PBXTargetDependency */,
+			);
+			name = TochPodTests;
+			productName = TochPodTests;
+			productReference = A10493F41C1AD5BF00204BFC /* TochPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A10493FE1C1AD5BF00204BFC /* TochPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A104940E1C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPodUITests" */;
+			buildPhases = (
+				A10493FB1C1AD5BF00204BFC /* Sources */,
+				A10493FC1C1AD5BF00204BFC /* Frameworks */,
+				A10493FD1C1AD5BF00204BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10494011C1AD5BF00204BFC /* PBXTargetDependency */,
+			);
+			name = TochPodUITests;
+			productName = TochPodUITests;
+			productReference = A10493FF1C1AD5BF00204BFC /* TochPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10493D81C1AD5BF00204BFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "石森愛海";
+				TargetAttributes = {
+					A10493DF1C1AD5BF00204BFC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JQ6AUCT297;
+					};
+					A10493F31C1AD5BF00204BFC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JQ6AUCT297;
+						TestTargetID = A10493DF1C1AD5BF00204BFC;
+					};
+					A10493FE1C1AD5BF00204BFC = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JQ6AUCT297;
+						TestTargetID = A10493DF1C1AD5BF00204BFC;
+					};
+				};
+			};
+			buildConfigurationList = A10493DB1C1AD5BF00204BFC /* Build configuration list for PBXProject "TochPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10493D71C1AD5BF00204BFC;
+			productRefGroup = A10493E11C1AD5BF00204BFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10493DF1C1AD5BF00204BFC /* TochPod */,
+				A10493F31C1AD5BF00204BFC /* TochPodTests */,
+				A10493FE1C1AD5BF00204BFC /* TochPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10493DE1C1AD5BF00204BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10493EE1C1AD5BF00204BFC /* LaunchScreen.storyboard in Resources */,
+				A10493EB1C1AD5BF00204BFC /* Assets.xcassets in Resources */,
+				A10493E91C1AD5BF00204BFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10493F21C1AD5BF00204BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10493FD1C1AD5BF00204BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10493DC1C1AD5BF00204BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10493E61C1AD5BF00204BFC /* ViewController.swift in Sources */,
+				A10493E41C1AD5BF00204BFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10493F01C1AD5BF00204BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10493F91C1AD5BF00204BFC /* TochPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10493FB1C1AD5BF00204BFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10494041C1AD5BF00204BFC /* TochPodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10493F61C1AD5BF00204BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10493DF1C1AD5BF00204BFC /* TochPod */;
+			targetProxy = A10493F51C1AD5BF00204BFC /* PBXContainerItemProxy */;
+		};
+		A10494011C1AD5BF00204BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10493DF1C1AD5BF00204BFC /* TochPod */;
+			targetProxy = A10494001C1AD5BF00204BFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A10493E71C1AD5BF00204BFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10493E81C1AD5BF00204BFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A10493EC1C1AD5BF00204BFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10493ED1C1AD5BF00204BFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10494061C1AD5BF00204BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10494071C1AD5BF00204BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10494091C1AD5BF00204BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TochPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A104940A1C1AD5BF00204BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TochPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A104940C1C1AD5BF00204BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TochPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TochPod.app/TochPod";
+			};
+			name = Debug;
+		};
+		A104940D1C1AD5BF00204BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TochPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TochPod.app/TochPod";
+			};
+			name = Release;
+		};
+		A104940F1C1AD5BF00204BFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TochPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TochPod;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A10494101C1AD5BF00204BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TochPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TochPod;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10493DB1C1AD5BF00204BFC /* Build configuration list for PBXProject "TochPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10494061C1AD5BF00204BFC /* Debug */,
+				A10494071C1AD5BF00204BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10494081C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10494091C1AD5BF00204BFC /* Debug */,
+				A104940A1C1AD5BF00204BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A104940B1C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A104940C1C1AD5BF00204BFC /* Debug */,
+				A104940D1C1AD5BF00204BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A104940E1C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A104940F1C1AD5BF00204BFC /* Debug */,
+				A10494101C1AD5BF00204BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10493D81C1AD5BF00204BFC /* Project object */;
+}
