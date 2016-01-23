@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //play background
+        
+        //バックグラウンドでも再生できるように
+        let session = AVAudioSession.sharedInstance()
+        do{
+            try session.setCategory(AVAudioSessionCategoryPlayback)
+        } catch {
+            //エラー処理
+            fatalError("カテゴリ設定失敗")
+        }
+        
+        //sessionのアクティブ化
+        do{
+            try session.setActive(true)
+        } catch {
+            //audio sessionが失敗した時の処理
+            //(ここでは、エラーとして停止している)
+            fatalError("sessionの有効化")
+        }
         return true
     }
 

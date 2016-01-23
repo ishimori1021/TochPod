@@ -14,6 +14,33 @@
 		A10493EE1C1AD5BF00204BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10493EC1C1AD5BF00204BFC /* LaunchScreen.storyboard */; };
 		A10493F91C1AD5BF00204BFC /* TochPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10493F81C1AD5BF00204BFC /* TochPodTests.swift */; };
 		A10494041C1AD5BF00204BFC /* TochPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10494031C1AD5BF00204BFC /* TochPodUITests.swift */; };
+		A10494151C1AE3F000204BFC /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10494121C1AE3F000204BFC /* aria.mp3 */; };
+		A10494161C1AE3F000204BFC /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10494131C1AE3F000204BFC /* cannon.mp3 */; };
+		A10494171C1AE3F000204BFC /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A10494141C1AE3F000204BFC /* elise.mp3 */; };
+		A10494191C1AE42A00204BFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10494181C1AE42A00204BFC /* AVFoundation.framework */; };
+		A104941E1C1AE93E00204BFC /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A104941B1C1AE93E00204BFC /* Bach.jpg */; };
+		A104941F1C1AE93E00204BFC /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A104941C1C1AE93E00204BFC /* Beethoven.jpg */; };
+		A10494201C1AE93E00204BFC /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A104941D1C1AE93E00204BFC /* Pachelbel.jpg */; };
+		A1D158A31C1BB00F0042DFA0 /* Part of your World (japanese Version) ??????????????.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158A21C1BB00F0042DFA0 /* Part of your World (japanese Version) ??????????????.mp3 */; };
+		A1D158A91C1BB45D0042DFA0 /* 輝く未来.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158A81C1BB45D0042DFA0 /* 輝く未来.mp3 */; };
+		A1D158AD1C1BDDCC0042DFA0 /* lapunzel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158AC1C1BDDCC0042DFA0 /* lapunzel.jpg */; };
+		A1D158AF1C1BDE580042DFA0 /* ariel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158AE1C1BDE580042DFA0 /* ariel.jpg */; };
+		A1D158B31C1BEDD90042DFA0 /* くまのプーさん.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158B21C1BEDD90042DFA0 /* くまのプーさん.mp3 */; };
+		A1D158B51C1BEE950042DFA0 /* pooh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158B41C1BEE950042DFA0 /* pooh.jpg */; };
+		A1D158B71C1BEFB40042DFA0 /* アラジン.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158B61C1BEFB40042DFA0 /* アラジン.mp3 */; };
+		A1D158B91C1BF0E10042DFA0 /* aladdin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158B81C1BF0E10042DFA0 /* aladdin.jpg */; };
+		A1D158BB1C1BF3120042DFA0 /* ?????????????????????????.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158BA1C1BF3120042DFA0 /* ?????????????????????????.mp3 */; };
+		A1D158BD1C1BF3200042DFA0 /* チャンドゥ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158BC1C1BF3200042DFA0 /* チャンドゥ.jpg */; };
+		A1D158BF1C1BF4760042DFA0 /* Under the Sea .mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158BE1C1BF4760042DFA0 /* Under the Sea .mp3 */; };
+		A1D158C11C1BF56C0042DFA0 /* Ariel2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158C01C1BF56C0042DFA0 /* Ariel2.jpg */; };
+		A1D158C31C1BF6B50042DFA0 /* pinokio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158C21C1BF6B50042DFA0 /* pinokio.jpg */; };
+		A1D158C51C1BF6BD0042DFA0 /* ピノキオ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158C41C1BF6BD0042DFA0 /* ピノキオ.mp3 */; };
+		A1D158C91C1BFA770042DFA0 /* アナ雪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158C61C1BFA770042DFA0 /* アナ雪.jpg */; };
+		A1D158CA1C1BFA770042DFA0 /* エルサ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158C71C1BFA770042DFA0 /* エルサ.jpg */; };
+		A1D158CB1C1BFA770042DFA0 /* レリゴー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158C81C1BFA770042DFA0 /* レリゴー.mp3 */; };
+		A1D158CF1C1BFA8B0042DFA0 /* 生まれて初めて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158CC1C1BFA8B0042DFA0 /* 生まれて初めて.mp3 */; };
+		A1D158D01C1BFA8B0042DFA0 /* 扉開けて.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1D158CD1C1BFA8B0042DFA0 /* 扉開けて.jpg */; };
+		A1D158D11C1BFA8B0042DFA0 /* 扉開けて.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1D158CE1C1BFA8B0042DFA0 /* 扉開けて.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +74,33 @@
 		A10493FF1C1AD5BF00204BFC /* TochPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TochPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10494031C1AD5BF00204BFC /* TochPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TochPodUITests.swift; sourceTree = "<group>"; };
 		A10494051C1AD5BF00204BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10494121C1AE3F000204BFC /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		A10494131C1AE3F000204BFC /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		A10494141C1AE3F000204BFC /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		A10494181C1AE42A00204BFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A104941B1C1AE93E00204BFC /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+		A104941C1C1AE93E00204BFC /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		A104941D1C1AE93E00204BFC /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		A1D158A21C1BB00F0042DFA0 /* Part of your World (japanese Version) ??????????????.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Part of your World (japanese Version) ??????????????.mp3"; path = "../Part of your World (japanese Version) ??????????????.mp3"; sourceTree = "<group>"; };
+		A1D158A81C1BB45D0042DFA0 /* 輝く未来.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "輝く未来.mp3"; path = "../輝く未来.mp3"; sourceTree = "<group>"; };
+		A1D158AC1C1BDDCC0042DFA0 /* lapunzel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lapunzel.jpg; path = ../lapunzel.jpg; sourceTree = "<group>"; };
+		A1D158AE1C1BDE580042DFA0 /* ariel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ariel.jpg; path = ../ariel.jpg; sourceTree = "<group>"; };
+		A1D158B21C1BEDD90042DFA0 /* くまのプーさん.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "くまのプーさん.mp3"; path = "../くまのプーさん.mp3"; sourceTree = "<group>"; };
+		A1D158B41C1BEE950042DFA0 /* pooh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pooh.jpg; path = ../pooh.jpg; sourceTree = "<group>"; };
+		A1D158B61C1BEFB40042DFA0 /* アラジン.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "アラジン.mp3"; path = "../アラジン.mp3"; sourceTree = "<group>"; };
+		A1D158B81C1BF0E10042DFA0 /* aladdin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aladdin.jpg; path = ../aladdin.jpg; sourceTree = "<group>"; };
+		A1D158BA1C1BF3120042DFA0 /* ?????????????????????????.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "?????????????????????????.mp3"; path = "../?????????????????????????.mp3"; sourceTree = "<group>"; };
+		A1D158BC1C1BF3200042DFA0 /* チャンドゥ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "チャンドゥ.jpg"; path = "../チャンドゥ.jpg"; sourceTree = "<group>"; };
+		A1D158BE1C1BF4760042DFA0 /* Under the Sea .mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Under the Sea .mp3"; path = "../Under the Sea .mp3"; sourceTree = "<group>"; };
+		A1D158C01C1BF56C0042DFA0 /* Ariel2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ariel2.jpg; path = ../Ariel2.jpg; sourceTree = "<group>"; };
+		A1D158C21C1BF6B50042DFA0 /* pinokio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pinokio.jpg; path = ../pinokio.jpg; sourceTree = "<group>"; };
+		A1D158C41C1BF6BD0042DFA0 /* ピノキオ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ピノキオ.mp3"; path = "../ピノキオ.mp3"; sourceTree = "<group>"; };
+		A1D158C61C1BFA770042DFA0 /* アナ雪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "アナ雪.jpg"; path = "../アナ雪.jpg"; sourceTree = "<group>"; };
+		A1D158C71C1BFA770042DFA0 /* エルサ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "エルサ.jpg"; path = "../エルサ.jpg"; sourceTree = "<group>"; };
+		A1D158C81C1BFA770042DFA0 /* レリゴー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "レリゴー.mp3"; path = "../レリゴー.mp3"; sourceTree = "<group>"; };
+		A1D158CC1C1BFA8B0042DFA0 /* 生まれて初めて.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "生まれて初めて.mp3"; path = "../生まれて初めて.mp3"; sourceTree = "<group>"; };
+		A1D158CD1C1BFA8B0042DFA0 /* 扉開けて.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "扉開けて.jpg"; path = "../扉開けて.jpg"; sourceTree = "<group>"; };
+		A1D158CE1C1BFA8B0042DFA0 /* 扉開けて.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "扉開けて.mp3"; path = "../扉開けて.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10494191C1AE42A00204BFC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +132,9 @@
 		A10493D71C1AD5BF00204BFC = {
 			isa = PBXGroup;
 			children = (
+				A104941A1C1AE93E00204BFC /* Images */,
+				A10494181C1AE42A00204BFC /* AVFoundation.framework */,
+				A10494111C1AE3F000204BFC /* Songs */,
 				A10493E21C1AD5BF00204BFC /* TochPod */,
 				A10493F71C1AD5BF00204BFC /* TochPodTests */,
 				A10494021C1AD5BF00204BFC /* TochPodUITests */,
@@ -123,6 +181,46 @@
 				A10494051C1AD5BF00204BFC /* Info.plist */,
 			);
 			path = TochPodUITests;
+			sourceTree = "<group>";
+		};
+		A10494111C1AE3F000204BFC /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				A1D158CC1C1BFA8B0042DFA0 /* 生まれて初めて.mp3 */,
+				A1D158CE1C1BFA8B0042DFA0 /* 扉開けて.mp3 */,
+				A1D158C81C1BFA770042DFA0 /* レリゴー.mp3 */,
+				A1D158C41C1BF6BD0042DFA0 /* ピノキオ.mp3 */,
+				A1D158BE1C1BF4760042DFA0 /* Under the Sea .mp3 */,
+				A1D158BA1C1BF3120042DFA0 /* ?????????????????????????.mp3 */,
+				A1D158B61C1BEFB40042DFA0 /* アラジン.mp3 */,
+				A1D158B21C1BEDD90042DFA0 /* くまのプーさん.mp3 */,
+				A1D158A21C1BB00F0042DFA0 /* Part of your World (japanese Version) ??????????????.mp3 */,
+				A1D158A81C1BB45D0042DFA0 /* 輝く未来.mp3 */,
+				A10494121C1AE3F000204BFC /* aria.mp3 */,
+				A10494131C1AE3F000204BFC /* cannon.mp3 */,
+				A10494141C1AE3F000204BFC /* elise.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		A104941A1C1AE93E00204BFC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A1D158C61C1BFA770042DFA0 /* アナ雪.jpg */,
+				A1D158CD1C1BFA8B0042DFA0 /* 扉開けて.jpg */,
+				A1D158C71C1BFA770042DFA0 /* エルサ.jpg */,
+				A1D158C21C1BF6B50042DFA0 /* pinokio.jpg */,
+				A1D158C01C1BF56C0042DFA0 /* Ariel2.jpg */,
+				A1D158BC1C1BF3200042DFA0 /* チャンドゥ.jpg */,
+				A1D158B81C1BF0E10042DFA0 /* aladdin.jpg */,
+				A1D158B41C1BEE950042DFA0 /* pooh.jpg */,
+				A1D158AE1C1BDE580042DFA0 /* ariel.jpg */,
+				A1D158AC1C1BDDCC0042DFA0 /* lapunzel.jpg */,
+				A104941B1C1AE93E00204BFC /* Bach.jpg */,
+				A104941C1C1AE93E00204BFC /* Beethoven.jpg */,
+				A104941D1C1AE93E00204BFC /* Pachelbel.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +292,11 @@
 					A10493DF1C1AD5BF00204BFC = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = JQ6AUCT297;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					A10493F31C1AD5BF00204BFC = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,9 +335,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10494201C1AE93E00204BFC /* Pachelbel.jpg in Resources */,
+				A1D158CF1C1BFA8B0042DFA0 /* 生まれて初めて.mp3 in Resources */,
+				A1D158D01C1BFA8B0042DFA0 /* 扉開けて.jpg in Resources */,
+				A1D158C51C1BF6BD0042DFA0 /* ピノキオ.mp3 in Resources */,
+				A1D158BD1C1BF3200042DFA0 /* チャンドゥ.jpg in Resources */,
+				A1D158B51C1BEE950042DFA0 /* pooh.jpg in Resources */,
 				A10493EE1C1AD5BF00204BFC /* LaunchScreen.storyboard in Resources */,
+				A1D158BF1C1BF4760042DFA0 /* Under the Sea .mp3 in Resources */,
+				A1D158C11C1BF56C0042DFA0 /* Ariel2.jpg in Resources */,
 				A10493EB1C1AD5BF00204BFC /* Assets.xcassets in Resources */,
+				A1D158A31C1BB00F0042DFA0 /* Part of your World (japanese Version) ??????????????.mp3 in Resources */,
+				A1D158B71C1BEFB40042DFA0 /* アラジン.mp3 in Resources */,
 				A10493E91C1AD5BF00204BFC /* Main.storyboard in Resources */,
+				A104941E1C1AE93E00204BFC /* Bach.jpg in Resources */,
+				A1D158C91C1BFA770042DFA0 /* アナ雪.jpg in Resources */,
+				A1D158C31C1BF6B50042DFA0 /* pinokio.jpg in Resources */,
+				A1D158CA1C1BFA770042DFA0 /* エルサ.jpg in Resources */,
+				A1D158B91C1BF0E10042DFA0 /* aladdin.jpg in Resources */,
+				A104941F1C1AE93E00204BFC /* Beethoven.jpg in Resources */,
+				A1D158CB1C1BFA770042DFA0 /* レリゴー.mp3 in Resources */,
+				A10494161C1AE3F000204BFC /* cannon.mp3 in Resources */,
+				A1D158A91C1BB45D0042DFA0 /* 輝く未来.mp3 in Resources */,
+				A1D158BB1C1BF3120042DFA0 /* ?????????????????????????.mp3 in Resources */,
+				A1D158AD1C1BDDCC0042DFA0 /* lapunzel.jpg in Resources */,
+				A1D158B31C1BEDD90042DFA0 /* くまのプーさん.mp3 in Resources */,
+				A10494151C1AE3F000204BFC /* aria.mp3 in Resources */,
+				A1D158D11C1BFA8B0042DFA0 /* 扉開けて.mp3 in Resources */,
+				A1D158AF1C1BDE580042DFA0 /* ariel.jpg in Resources */,
+				A10494171C1AE3F000204BFC /* elise.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,9 +529,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TochPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liti.TochPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -411,9 +541,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TochPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TochPod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liti.TochPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -485,6 +616,7 @@
 				A104940A1C1AD5BF00204BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A104940B1C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPodTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +625,7 @@
 				A104940D1C1AD5BF00204BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A104940E1C1AD5BF00204BFC /* Build configuration list for PBXNativeTarget "TochPodUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +634,7 @@
 				A10494101C1AD5BF00204BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
